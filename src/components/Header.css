@@ -2,6 +2,23 @@
     color: white;
     height: 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.punkLogo {
+    width: 200px;
+}
+.header > div{
+    margin: 10px;
+}
+
+.searchBar{
+    background-color: #1c1c1e;
+    height: 50px;
+    flex:1 ;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
     
 
 }
