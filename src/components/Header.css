@@ -1,24 +1,41 @@
-.header{
-    color: white;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .punkLogo {
-    width: 200px;
+  width: 200px;
 }
-.header > div{
+.header > div {
+  margin: 10px;
+}
+
+.searchBar {
+  background-color: #1c1c1e;
+  height: 50px;
+  flex: 1;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+.searchIconContainer{
     margin: 10px;
+}.searchInput{
+    background: transparent;
+    border: none;
+    width: 100%;
+    color: white;
+    outline: none;
+    font-size: 16px;
 }
-
-.searchBar{
-    background-color: #1c1c1e;
-    height: 50px;
-    flex:1 ;
-    display: flex;
-    border-radius: 50px;
-    align-items: center;
-    
-
+.headerItems{
+  display: flex;
+  color:#a1a5b0;
+  
+  
+}
+.headerItems >p{
+  margin: 10px;
 }
