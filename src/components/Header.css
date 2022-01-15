@@ -22,7 +22,8 @@
 }
 .searchIconContainer{
     margin: 10px;
-}.searchInput{
+}
+.searchInput{
     background: transparent;
     border: none;
     width: 100%;
@@ -57,5 +58,11 @@
   object-fit: contain;
 }
 .themeSwitcher > img{
-  height: 30px;
+  height: 25px;
+}
+.LoginButton{
+  background: linear-gradient(to right, #59f9b7,#66feea);
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #1c1c1e;
 }

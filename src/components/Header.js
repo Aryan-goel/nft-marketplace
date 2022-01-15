@@ -30,6 +30,9 @@ const Header = () => {
         </div>
 
       </div>
+      <div className="LoginButton">
+        Get in
+      </div>
     </div>
   );
 };
