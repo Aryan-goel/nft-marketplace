@@ -1,6 +1,7 @@
 import React from "react";
-import InstagramLogo from '../assets/owner/instagram.png';
-import moreIcon from '../assets/owner/more.png'
+import InstagramLogo from "../assets/owner/instagram.png";
+import moreIcon from "../assets/owner/more.png";
+import "./Main.css";
 const Main = () => {
   return (
     <div className="main">
@@ -9,7 +10,9 @@ const Main = () => {
           <div className="punkContainer">
             <img
               className="selectedPunk"
-              src="https://ipfs.thirdweb.com/ipfs/QmbxpMKvCQV9rGNujnWBr1cb41QnFk18UBb1uYEfJihy5y/0.jpg"
+              src={
+                "https://ipfs.thirdweb.com/ipfs/QmbxpMKvCQV9rGNujnWBr1cb41QnFk18UBb1uYEfJihy5y/0.jpg"
+              }
               alt=""
             />
           </div>
