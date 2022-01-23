@@ -1,4 +1,6 @@
 import React from "react";
+import InstagramLogo from '../assets/owner/instagram.png';
+import moreIcon from '../assets/owner/more.png'
 const Main = () => {
   return (
     <div className="main">
@@ -26,7 +28,20 @@ const Main = () => {
               alt=""
             />
           </div>
-          <div className="ownerDetails"></div>
+          <div className="ownerDetails">
+            <div className="ownerNameAndHandle">
+              <div className="address">
+                0xe911396b58898D08bd1264f4746b40651026B932
+              </div>
+              <div className="ownerHandle">@AryanGoel</div>
+            </div>
+            <div className="ownerLink">
+              <img src={InstagramLogo} alt="" />
+            </div>
+            <div className="ownerLink">
+              <img src={moreIcon} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
