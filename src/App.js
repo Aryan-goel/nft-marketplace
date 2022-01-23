@@ -5,6 +5,7 @@ import CollectionCard from "./components/CollectionCard";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import PunkList from "./components/PunkList";
+import Main from "./components/Main";
 function App() {
   const [punkListData, setPunkListData] = useState([]);
 
@@ -27,6 +28,7 @@ function App() {
         traits={[{ value: 7 }]}
         image="https://ipfs.thirdweb.com/ipfs/QmbxpMKvCQV9rGNujnWBr1cb41QnFk18UBb1uYEfJihy5y/0.jpg"
       /> */}
+      <Main/>
       <PunkList punkListData={punkListData} />
     </div>
   );
