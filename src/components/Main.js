@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import InstagramLogo from "../assets/owner/instagram.png";
 import moreIcon from "../assets/owner/more.png";
 import "./Main.css";
-const Main = () => {
+const Main = ({selectedPunk,punkListData}) => {
+  const[activePunk,setActivePunk]=useState(punkListData[0])
+
+
+  useEffect(()=>{
+    setActivePunk(punkListData[selectedPunk])
+  },[punkListData,selectedPunk])
+
   return (
     <div className="main">
       <div className="mainContent">
@@ -11,7 +18,7 @@ const Main = () => {
             <img
               className="selectedPunk"
               src={
-                "https://ipfs.thirdweb.com/ipfs/QmbxpMKvCQV9rGNujnWBr1cb41QnFk18UBb1uYEfJihy5y/0.jpg"
+                activePunk.image_original_url
               }
               alt=""
             />
